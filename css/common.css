@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*헤더푸터*/
+
+* {margin: 0; box-sizing: border-box;}
+.a {cursor:pointer;}
+
+#wrap {width: 100%; height: auto;
+}
+
+#header {width: 100%; height: 100px; display: flex; 
+margin: 0 auto; display:flex; align-items:center; justify-content:space-between; }
+
+#header >.small {width: 1200px; height: 100px; margin:0 auto; 
+display: flex; justify-content: space-between;}
+
+.small > .logo {display: inline-block; width: 100px; height: 50px;
+margin: 30px 0 0 0px;}
+
+.b {width: 700px; height: 50px; 
+display:inline-block; margin: 25px 20px 0 0px;}
+
+#header .b ul {display:flex; }
+#header .b ul li a {padding:15px; display:block; color:white; font-weight:bold; font-size:19px;}
+#header .b ul li:nth-of-type(1) {color:purple; font-weight:bold; padding:15px 10px 0 0; font-size:19px;}
+
+#header .b ul li img {background:white;}
+
+#header .b ul li a:hover {text-decoration:underline;}
+.a {display:none;}
+.b {display:block;}

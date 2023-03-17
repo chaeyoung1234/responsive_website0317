@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+    /*슬라이더*/
+    
+    #slider
+    {width: 100%; height: 100vh; background-image:url("../img/slide.png");
+    background-size: cover; 
+    background-position: center; }
+
+    .slider_text {width:80%; height:500px; margin: 0 auto;
+    padding-top: 200px;}
+
+    .slider_text > h6  {font-size: 20px; color: #fff;} 
+    .slider_text > h1  {font-size: 75px; color: #fff; padding: 20px 0 30px 0;
+    line-height: 95px;} 
+    hr {width: 45px;
+    height: 10px;
+    background-color: #fff;
+    border: 0; }
+
+    .slider_text > p {font-size: 20px;
+    padding: 30px 0 0 0;
+    color: #fff;
+    width: 85%; line-height: 25px;} 
+
+
+    /*메인 컨텐츠*/
+
+    /*score*/
+    #score {background-color: #2b1440; width: 100%; height: 350px; margin: 0 auto;}
+    #score > p {display: block; color: white; text-align: center; padding: 50px 0 0 0;}
+    #score > h3 {display: block; color: white; text-align: center; padding: 20px 0 0 0; font-size: 34px;}
+    #score > .text_1 {text-align: center; margin: 20px 0 0 0;}
+    .scoretext {width:200px; height:300px;  display: inline-block; color: yellow;}
+    .scoretext > h1 {font-size: 75px; color: #fff;}
+    .scoretext > h6 {font-size: 16px; color: #fff; }
+
+    /*artist*/
+    #artist {background-color: pink; width: 100%; height: 1200px; margin: 0 auto; }
+    #artist .artistbox {width: 1500px; height: 1200px; background-color: red; margin: 0 auto;}
+    .artistbox .text_2 { background-color:yellow; width: 1000px; height:100px;}
+    .artistbox .text_2 h6  {font-size: 15px; color: black; } 
+    .artistbox .text_2 h1  {font-size: 40px; color: black; line-height: 95px; } 
+    .artistbox .text_2 hr {width: 45px; height: 10px; background-color: black; border: 0;  }
+    
+
+    /*banner*/
+    #banner {width:100%; height:500px; background-color: rebeccapurple; display: flex; align-items: center;
+    background-image: url("./../img/slider_files/banner.jpg"); background-size: cover;
+    }
+    #banner > .bannerbox {width:80%; height:200px; margin: 0 auto; }
+    .bannerbox > h6  {font-size: 20px; color: #fff; } 
+    .bannerbox > h1  {font-size: 40px; color: #fff; line-height: 95px;  } 
+    .bannerbox > hr {width: 45px; height: 10px; background-color: #fff; border: 0;  }
+    .bannerbox > button {background-color: white; color: black; padding: 20px 50px; font-weight: bold; font-size: 18px; display: inline-block; margin: 30px 0 0 0;
+    border: 0;}
+    .bannerbox > button:hover {cursor: pointer;}
+
+    /*album*/
+    #album {width: 100%; height:650px;  display: flex; flex-wrap:wrap;justify-content: center; }
+    #album  .text {width: 80%; height: 90px; padding: 30px; margin: 30px 70px 0 0; font-size: 30px; color: white;}
+    .text > h6  {color: black; font-size: 20px; } 
+    .text > h1  {font-size: 40px; color: black; line-height: 95px;  } 
+    .text > hr {width: 45px; height: 10px; background-color: black; border: 0;  }
+    #album > .three_album {width: 85%; height:340px;  display: flex; flex-wrap:wrap; align-items: center; justify-content: center; }
+    #album > .three_album  > .one {width: 350px; height: 300px; background-color: red; margin: 0 15px 0 0px; }
+    .one > a img {width: 100%; height: 100%; }
+    #album > .three_album  > .two {width: 350px; height: 300px; background-color: red; margin: 0 15px 0 0px;  }
+    .two > a img {width: 100%; height: 100%; }
+    #album > .three_album  > .three {width: 350px; height: 300px; background-color: red; margin: 0 15px 0 0px;  }
+    .three > a img {width: 100%; height: 100%; }
+
+    /*ticket*/
+    #ticket {width:100%; height:600px; background-color: royalblue;  display: flex; flex-wrap:wrap;justify-content: center;}
+    #ticket .text {width: 80%; height: 90px; font-size: 30px; margin: 60px 20px 0 0; }
+    .text > h6  {color: black; font-size: 20px; } 
+    .text > h1  {font-size: 40px; color: black; line-height: 95px;  } 
+    .text > hr {width: 45px; height: 10px; background-color: black; border: 0;  }
+    .text > button {width:100px; height:50px; background-color: #2a0c2a; border: 0; color: white; }
+
+    /*photo*/
+
+    #photo {width: 100%; height: auto; background-color: rebeccapurple; margin: 0 auto; display: flex; flex-wrap: wrap;}
+
+    .photobox1 {width: 50%; height: 380px;
+    background-image: linear-gradient(to right, #f5dada, #d888c8); 
+    display: flex; justify-content: space-evenly;}
+    
+    .photobox1 .box1 {background-image:url("https://hyeminportfolio.netlify.app/web/music/img/photobox1.png"); 
+        background-repeat:no-repeat; background-position:right top; 
+        margin: 0 0 0 50px;  }
+
+    .photobox1 .box_txt1 > h2 { flex-direction: column; color: #3d1853;
+        font-size: 40px;
+        padding: 90px 0 0 60px;}
+
+    .photobox1 .box_txt1 > p {flex-direction: column; color: #3d1853;
+        font-size: 16px;
+        padding: 10px 0 0 60px; line-height: 20px;}
+
+    .photobox1 .box_txt1 > h6 {flex-direction: column; color: #3d1853;
+    font-size: 18px;
+    margin: 80px 0 0 60px; }
+
+    .photobox2 {width: 50%; height: 380px;}
+
+    .photobox2 > .box2 > img   {width: 49.5%; height: 380px;  }
+
+    .photobox3 {width: 50%; height: 380px;}
+
+    .photobox3 > .box3 > img   {width: 49.5%; height: 380px;  }
+
+    .photobox4 {width: 50%; height: 380px; background-color: pink;
+    display: flex; justify-content: space-evenly;}
+
+    .photobox4 .box_txt1 > h2 { flex-direction: column; color: #3d1853;
+        font-size: 40px;
+        padding: 90px 0 0 60px;}
+
+    .photobox4 .box_txt1 > p {flex-direction: column; color: #3d1853;
+        font-size: 16px;
+        padding: 10px 0 0 60px; line-height: 20px;}
+
+    .photobox4 .box_txt1 > h6 {flex-direction: column; color: #3d1853;
+    font-size: 18px;
+    margin: 80px 0 0 60px; }
+
+    .photobox4 > .box4 {width: 400px; height: 250px; margin: 60px 0 0 0;}
+    .box4 > img {width: 100%; height: 100%; justify-content: space-evenly;}
+
+
+    /*blogpost*/
+    #blogpost {width: 100%; height: 700px; background-color: #d888c8; }
+
+    #blogpost > .text {width: 80%; height: 90px; font-size: 30px; margin: 60px 20px 0 0; }
+
+    #blogpost .text > h6  {color: black; font-size: 20px; } 
+    #blogpost .text > h1  {font-size: 40px; color: black; line-height: 95px;  } 
+    #blogpost .text > hr {width: 45px; height: 10px; background-color: black; border: 0;  }
